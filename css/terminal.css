@@ -1,0 +1,19 @@
+.consola {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-green {
+    color: greenyellow;
+}
+
+.text-blue {
+    color: darkturquoise;
+}
+
+.bg {
+    background-image: url(../media/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    ;
+}

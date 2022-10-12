@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/terminal.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- JS -->
+    <script>
+        $(document).ready(function () {
+
+            $("#cmd2").click(function () {
+                $("#info2").fadeToggle();
+            });
+            $("#cmd3").click(function () {
+                $("#info3").fadeToggle();
+            });
+            $("#cmd4").click(function () {
+                $("#info4").fadeToggle();
+            });
+        });
+    </script>
+
+    <title>manyo9</title>
+</head>
+
+<body class="bg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark consola">
+        <a class="navbar-brand" href="#">[manyo9@self]:~$</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">whoami</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">cd professional</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="education.html">cd education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">cd contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <div class="container-lg text-white border border-white rounded" style="background-color:rgb(10,10,10,0.75)">
+        <div class="row">
+            <div class="col-lg-4 col-md-2 col-sm-2 col-3 text-left">>_</div>
+            <div class="col-lg-4 col-md-8 col-sm-8 col-6 text-center">professional : zsh -- Konsole</div>
+            <div class="col-lg-4 col-md-2 col-sm-2 col-3 text-right">🗕 🗖 ✖</div>
+        </div>
+        <div class="row px-3 py-3">
+            <div class="col-12 consola">
+                <p id="cmd1"> <span class="text-green">[manyo9@self]</span>:
+                    <span class="text-blue">~/professional </span>$
+                    <span class="text-blue">ls</span>
+                </p>
+                <p id="info1">
+                    skills.txt&nbsp;&nbsp;&nbsp;&nbsp;
+                    lang.txt&nbsp;&nbsp;&nbsp;&nbsp;
+                    personal.txt
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-lg text-white border border-white rounded" style="background-color:rgb(10,10,10,0.75)">
+        <div class="row">
+            <div class="col-lg-4 col-md-2 col-sm-2 col-3 text-left">>_</div>
+            <div class="col-lg-4 col-md-8 col-sm-8 col-6 text-center">professional : zsh -- Konsole</div>
+            <div class="col-lg-4 col-md-2 col-sm-2 col-3 text-right">🗕 🗖 ✖</div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center d-none d-md-block">Split view</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-5 col-md-4 d-none d-md-block text-center border-top">professional : zsh -- Konsole</div>
+            <div class="col-lg-1 col-md-2 d-none d-md-block text-right border-top border-right">🗕 ✖</div>
+            <div class="col-lg-5 col-md-4 d-none d-md-block text-center border-top">professional : zsh -- Konsole </div>
+            <div class="col-lg-1 col-md-2 d-none d-md-block text-right border-top">🗕 ✖</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 consola border-right">
+                <br>
+                <p id="cmd2"> <span class="text-green">[manyo9@self]</span>:
+                    <span class="text-blue">~/professional </span>$
+                    <span class="text-blue">cat</span> skills.txt<br>
+                </p>
+                <p id="info2" style="display: none;">
+                    Stuff I've learned in Uni<br>
+                    > Python<br>
+                    > C#<br>
+                    > MS SQL Server<br>
+                    > MySQL<br>
+                    > Java<br>
+                    > JavaScript<br>
+                    > Angular (and TypeScript)<br>
+                    > Bootstrap and JQuery<br>
+                    > Spring Boot<br>
+                    > Business processes<br>
+                    > UML<br><br>
+
+                    Stuff I've learned by myself or at work<br><br>
+                    > Linux (Debian)<br>
+                    > Web Application and API Security<br>
+                    > Android Application Security<br>
+                    > Pentesting tools (e.g. sqlmap, BurpSuite)<br>
+                    > Instructing and mentoring Web Appliction Security Testing<br><br>
+                    > Basic knowledge of: Arch Linux, networking, Scrum
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-12 consola border-right">
+                <p id="cmd3"> <span class="text-green">[manyo9@self]</span>:
+                    <span class="text-blue">~/professional </span>$
+                    <span class="text-blue">cat</span> lang.txt
+                </p>
+                <p id="info3" style="display: none;">
+                    > Spanish: native.<br>
+                    > Written and spoken English: advanced.<br>
+                </p>
+                <p id="cmd4"> <span class="text-green">[manyo9@self]</span>:
+                    <span class="text-blue">~/professional </span>$
+                    <span class="text-blue">cat</span> personal.txt
+                </p>
+                <p id="info4" style="display: none;">My personal interests:<br><br>
+                    > Auto Racing. (Especially F1)<br><br>
+                    > Tabletop RPGs. (Helped me develop improvisation, conversational,
+                    moral, and social skills)<br><br>
+                    > Doing hacking-related CTFs (Capture The Flag)<br><br> 
+                </p><br>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
